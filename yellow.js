@@ -6,7 +6,7 @@ class Yellow {
         this.body = Bodies.rectangle(x,y,width,height,options);
         this.width = width;
         this.height = height;
-        this.image = loadImage("sprites/yellow.png");
+        this.image = loadImage("yellow.png");
         World.add(world,this.body);
     }
     display(){
