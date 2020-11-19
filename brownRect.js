@@ -6,7 +6,7 @@ class Brown {
         this.body = Bodies.rectangle(x,y,width,height,options);
         this.width = width;
         this.height = height;
-        this.image = loadImage("sprites/brown.png");
+        this.image = loadImage("brown.png");
         World.add(world,this.body);
     }
     display(){
